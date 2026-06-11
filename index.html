@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <h1>Agrinho 2026</h1>
+        <p>Agro forte, futuro sustentável</p>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#sustentavel">Sustentabilidade</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#quiz">Quiz</a>
+        </nav>
+    </header>
+
+    <!-- SOBRE -->
+    <section id="sobre">
+        <h2>Sobre o Agrinho</h2>
+        <p>O Agrinho é um programa educativo que ensina alunos sobre a importância da agricultura, da preservação ambiental e da sustentabilidade.</p>
+        <img src="imagens/fazenda.jpg" alt="Fazenda Sustentável">
+    </section>
+
+    <!-- SUSTENTABILIDADE -->
+    <section id="sustentavel">
+        <h2>Práticas Sustentáveis</h2>
+        <ul>
+            <li>Compostagem: transformar resíduos em adubo natural</li>
+            <li>Irrigação consciente: usar a água de forma eficiente</li>
+            <li>Energia solar: aproveitar o sol para gerar eletricidade</li>
+            <li>Proteção das nascentes e rios: conservar a água e os ecossistemas</li>
+            <li>Plantio de árvores e reflorestamento: restaurar áreas degradadas</li>
+        </ul>
+        <img src="imagens/lavoura.jpg" alt="Lavoura Sustentável">
+    </section>
+
+    <!-- GALERIA -->
+    <section id="galeria">
+        <h2>Galeria de Fotos</h2>
+        <p>Clique nas imagens para ampliar.</p>
+        <div class="galeria">
+            <img src="imagens/fazenda.jpg" alt="Fazenda" class="galeria-img">
+            <img src="imagens/horta.jpg" alt="Horta" class="galeria-img">
+            <img src="imagens/energia-solar.jpg" alt="Energia Solar" class="galeria-img">
+            <img src="imagens/reflorestamento.jpg" alt="Reflorestamento" class="galeria-img">
+            <img src="imagens/animais.jpg" alt="Animais do campo" class="galeria-img">
+            <img src="imagens/lavoura.jpg" alt="Lavoura" class="galeria-img">
+        </div>
+    </section>
+
+    <!-- MODAL PARA IMAGEM -->
+    <div id="modal" class="modal">
+        <span class="fechar">&times;</span>
+        <img class="modal-conteudo" id="img-modal">
+    </div>
+
+    <!-- QUIZ -->
+    <section id="quiz">
+        <h2>Quiz Agrinho 2026</h2>
+        <div id="quiz-container"></div>
+        <button id="proximo-btn">Próxima</button>
+        <p id="quiz-resultado"></p>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>Projeto Agrinho 2026 - Escola XYZ</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
